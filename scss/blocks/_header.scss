@@ -1,0 +1,115 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 64px 0 64px 0;
+    align-items: center;
+
+    &__logo{
+        padding-top: 10px;
+    }
+
+    &__list{
+        display: flex;
+        list-style-type: none;
+        gap: 42px;
+ 
+        &--item{
+
+            &-link{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                color: #333136;
+
+                &:hover{
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+    &__menu{
+        display: none;
+    }
+}
+
+
+/* ===================== RWD (768) =====================*/
+
+@media only screen and (max-width:768px){
+
+}
+
+/* ===================== RWD (624) =====================*/
+
+@media only screen and (max-width:624px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 64px 0 64px 0;
+        align-items: center;
+    
+    
+        &__list{
+            display: none;
+            list-style-type: none;
+            gap: 42px;
+     
+            &--item{
+    
+                &-link{
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    color: #333136;
+                }
+            }
+        }
+        &__menu{
+            display: block;
+        }
+    }
+
+}
+
+/* ===================== RWD (480) =====================*/
+
+@media only screen and (max-width:480px){
+    .nav{
+        display: flex;
+        // justify-content: space-between;
+        padding: 34px 0 34px 0;
+        align-items: center;
+    
+    
+        &__list{
+            display: none;
+            list-style-type: none;
+            gap: 42px;
+     
+            &--item{
+    
+                &-link{
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    color: #333136;
+                }
+            }
+        }
+        &__menu{
+            display: block;
+        }
+    }
+
+}
+
