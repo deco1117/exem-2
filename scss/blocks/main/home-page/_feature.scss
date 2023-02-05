@@ -1,0 +1,195 @@
+// section feature
+.feature{
+    &__wrapper{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 160px;
+     margin-bottom: 88px;
+ 
+     &--card{
+ 
+         width: 350px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         &-img{
+             background-image: linear-gradient(70deg, rgba(93, 2, 2, 0.0001) 20%, rgba(93, 2, 2, 0.497569) 100%);
+             background-repeat: no-repeat;
+             background-position: center;
+             border-radius: 50%;
+             width: 202px;
+             height: 202px;
+             position: relative;
+             margin-bottom: 43px;
+             
+             &-photo{    
+                 padding-top: 20px;   
+                 position: absolute;
+                 left: 10px;
+                 z-index: 22;
+ 
+                 
+             }
+         }
+ 
+         &-info{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+ 
+             &-title{
+                 font-weight: 500;
+                 font-size: 20px;
+                 line-height: 26px;
+                 letter-spacing: 5px;
+                 color: #333136;
+                 margin-bottom: 32px;
+             }
+     
+             &-text{
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 26px;
+                 text-align: center;
+                 color: #333136;
+             }
+         }
+ 
+     }
+    }
+ }
+
+ /* ===================== RWD (768) =====================*/
+
+@media only screen and (max-width:768px){
+
+    // section feature
+.feature{
+    &__wrapper{
+    display: inline-block;
+     margin-top: 120px;
+     margin-bottom: 40px;
+ 
+     &--card{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+         gap: 48px;
+         margin-bottom: 32px;
+
+         &-img{
+             background-image: linear-gradient(70deg, rgba(93, 2, 2, 0.0001) 20%, rgba(93, 2, 2, 0.497569) 100%);
+             background-repeat: no-repeat;
+             background-position: center;
+             border-radius: 50%;
+             width: 202px;
+             height: 202px;
+             position: relative;
+             margin: 0;
+             
+             &-photo{
+                padding-top: 20px;
+                width: 202px;      
+                 position: absolute;
+                 left: 10px;
+                 z-index: 22;
+ 
+                 
+             }
+         }
+ 
+         &-info{
+            align-items: start;
+            max-width: 439px;
+             &-title{
+                text-align: start;
+                 font-weight: 500;
+                 font-size: 20px;
+                 line-height: 26px;
+                 letter-spacing: 5px;
+                 color: #333136;
+                 margin-bottom: 16px;
+             }
+     
+             &-text{
+                text-align: start;
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 26px;
+                 color: #333136;
+             }
+         }
+ 
+     }
+    }
+ }
+}
+
+/* ===================== RWD (480) =====================*/
+
+@media only screen and (max-width:480px){
+
+// section feature
+.feature{
+    &__wrapper{
+    display: inline-block;
+     margin-top: 120px;
+     margin-bottom: 41px;
+ 
+     &--card{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         gap: 48px;
+         margin-bottom: 80px;
+
+         &-img{
+             background-image: linear-gradient(70deg, rgba(93, 2, 2, 0.0001) 20%, rgba(93, 2, 2, 0.497569) 100%);
+             background-repeat: no-repeat;
+             background-position: center;
+             border-radius: 50%;
+             width: 202px;
+             height: 202px;
+             position: relative;
+             margin: 0;
+             
+             &-photo{
+                padding-top: 20px;
+                width: 202px;      
+                 position: absolute;
+                 left: 10px;
+                 z-index: 22;
+                 
+ 
+                 
+             }
+         }
+ 
+         &-info{
+            align-items: center;
+            max-width: 100%;
+             &-title{
+                text-align: start;
+                 font-weight: 500;
+                 font-size: 20px;
+                 line-height: 26px;
+                 letter-spacing: 5px;
+                 color: #333136;
+                 margin-bottom: 16px;
+             }
+     
+             &-text{
+                text-align: center;
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 26px;
+                 color: #333136;
+             }
+         }
+ 
+     }
+    }
+ }
+}

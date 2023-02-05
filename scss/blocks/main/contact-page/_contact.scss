@@ -3,6 +3,7 @@
 
 
     &__wrapper{
+        margin-top: 170px;
         background-image:url(/photos/fon/Oval-big.svg), linear-gradient(0, rgba(#E7816B, 1) 100%, 0, rgba(#E7816B, 1) 100%,); 
         background-repeat: no-repeat;
         height: 480px;
@@ -127,89 +128,6 @@
     }
 }
 
-// section location
-.location{
-   &__wrapper{
-
-    margin-top: 166px;
-    margin-bottom: 160px;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-
-    &--card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 350px;
-        &-img{
-            background-image: linear-gradient(0deg, rgba(93, 2, 2, 0.000001) 10%, rgba(114, 8, 8, 0.498) 100%);
-            background-repeat: no-repeat;
-            background-position: center;
-            border-radius: 50%;
-            width: 202px;
-            height: 202px;
-            position: relative;
-            margin-bottom: 48px;
-            
-            &-photo{
-                padding-top: 30px;       
-                margin: 0 auto;
-                position: absolute;
-                left: 10px;
-                z-index: 22;
-
-                
-            }
-        }
-
-        &-title{
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 26px;
-            text-align: center;
-            letter-spacing: 5px;
-            color: #333136;
-            margin-bottom: 32px;
-        }
-
-        &-btn{
-            background: #E7816B;
-            border-radius: 8px;
-            padding: 18px 18.5px 16px 18.5px ;
-            border: none;
-            font-weight: 500;
-            font-size: 15px;
-            line-height: 22px;
-            text-align: center;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            color: #FFFFFF;
-            cursor: pointer;
-
-            &:hover{
-                font-weight: 500;
-                font-size: 15px;
-                line-height: 22px;
-                text-align: center;
-                letter-spacing: 1px;
-                text-transform: uppercase;
-                color: #FFFFFF;
-                background: #FFAD9B;
-                border-radius: 8px;
-            }
-        }
-
-    }
-   }
-}
-
-#sidney{
-    padding-top: 55px;
-}
-#uk{
-    padding-top: 47px;
-}
 
 /* ===================== RWD (768) =====================*/
 
@@ -343,82 +261,6 @@
     }
 }
 
-// section location
-.location{
-    &__wrapper{
-     flex-direction: column;
-     align-items: center;
-     margin-top: 120px;
-     margin-bottom: 120px;
-     display: flex;
-     justify-content: space-between;
-     gap: 80px;
- 
-     &--card{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         width: 350px;
-         &-img{
-             background-image: linear-gradient(0deg, rgba(93, 2, 2, 0.000001) 10%, rgba(114, 8, 8, 0.498) 100%);
-             background-repeat: no-repeat;
-             background-position: center;
-             border-radius: 50%;
-             width: 202px;
-             height: 202px;
-             position: relative;
-             margin-bottom: 48px; 
-             &-photo{
-                 padding-top: 30px;       
-                 margin: 0 auto;
-                 position: absolute;
-                 left: 10px;
-                 z-index: 22;
- 
-                 
-             }
-         }
- 
-         &-title{
-             font-weight: 500;
-             font-size: 20px;
-             line-height: 26px;
-             text-align: center;
-             letter-spacing: 5px;
-             color: #333136;
-             margin-bottom: 32px;
-         }
- 
-         &-btn{
-             background: #E7816B;
-             border-radius: 8px;
-             padding: 18px 18.5px 16px 18.5px ;
-             border: none;
-             font-weight: 500;
-             font-size: 15px;
-             line-height: 22px;
-             text-align: center;
-             letter-spacing: 1px;
-             text-transform: uppercase;
-             color: #FFFFFF;
-             cursor: pointer;
- 
-             &:hover{
-                 font-weight: 500;
-                 font-size: 15px;
-                 line-height: 22px;
-                 text-align: center;
-                 letter-spacing: 1px;
-                 text-transform: uppercase;
-                 color: #FFFFFF;
-                 background: #FFAD9B;
-                 border-radius: 8px;
-             }
-         }
- 
-     }
-    }
- }
 
 }
 
@@ -558,81 +400,5 @@
     }
 }
 
-// section location
-.location{
-    &__wrapper{
-     flex-direction: column;
-     align-items: center;
-     margin-top: 120px;
-     margin-bottom: 120px;
-     display: flex;
-     justify-content: space-between;
-     gap: 48px;
- 
-     &--card{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         width: 350px;
-         &-img{
-             background-image: linear-gradient(0deg, rgba(93, 2, 2, 0.000001) 10%, rgba(114, 8, 8, 0.498) 100%);
-             background-repeat: no-repeat;
-             background-position: center;
-             border-radius: 50%;
-             width: 202px;
-             height: 202px;
-             position: relative;
-             margin-bottom: 48px; 
-             &-photo{
-                 padding-top: 30px;       
-                 margin: 0 auto;
-                 position: absolute;
-                 left: 10px;
-                 z-index: 22;
- 
-                 
-             }
-         }
- 
-         &-title{
-             font-weight: 500;
-             font-size: 20px;
-             line-height: 26px;
-             text-align: center;
-             letter-spacing: 5px;
-             color: #333136;
-             margin-bottom: 32px;
-         }
- 
-         &-btn{
-             background: #E7816B;
-             border-radius: 8px;
-             padding: 18px 18.5px 16px 18.5px ;
-             border: none;
-             font-weight: 500;
-             font-size: 15px;
-             line-height: 22px;
-             text-align: center;
-             letter-spacing: 1px;
-             text-transform: uppercase;
-             color: #FFFFFF;
-             cursor: pointer;
- 
-             &:hover{
-                 font-weight: 500;
-                 font-size: 15px;
-                 line-height: 22px;
-                 text-align: center;
-                 letter-spacing: 1px;
-                 text-transform: uppercase;
-                 color: #FFFFFF;
-                 background: #FFAD9B;
-                 border-radius: 8px;
-             }
-         }
- 
-     }
-    }
- }
 
 }

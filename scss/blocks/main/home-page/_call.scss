@@ -1,0 +1,199 @@
+// section call
+.call{
+    top: 72px;
+    position: relative;
+    background-image: url(/photos/fon/Oval-call.svg), linear-gradient(0, rgba(#E7816B, 1) 100%, 0, rgba(#E7816B, 1) 100%,);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: cover;
+    padding: 72px 95px;
+    border-radius: 15px;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 309px;
+
+        &--start{
+            max-width: 495px;
+
+            &-title{
+                max-width: 268px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 40px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+            &-text{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+            }
+        }
+        &--end{
+            
+        &-btn{
+            width: 152px;
+            padding: 15px 15px;
+            border: none;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #333136;
+            background: #FFFFFF;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover{
+                background: #FFAD9B;
+                color: #FFFFFF;
+            }
+        }
+        }
+    }
+}
+
+/* ===================== RWD (768) =====================*/
+
+@media only screen and (max-width:768px){
+
+    // section call
+.call{
+    top: 72px;
+    position: relative;
+    background-image: url(/photos/fon/Oval-call.svg), linear-gradient(0, rgba(#E7816B, 1) 100%, 0, rgba(#E7816B, 1) 100%,);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: cover;
+    padding: 57px 59px;
+    border-radius: 15px;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+
+        &--start{
+            max-width: 495px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-title{
+                text-align: center;
+                max-width: 268px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 40px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+            &-text{
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+            }
+        }
+        &--end{
+            
+        &-btn{
+            width: 152px;
+            padding: 15px 15px;
+            border: none;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #333136;
+            background: #FFFFFF;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover{
+                background: #FFAD9B;
+                color: #FFFFFF;
+            }
+        }
+        }
+    }
+}
+
+}
+/* ===================== RWD (480) =====================*/
+
+@media only screen and (max-width:480px){
+     // section call
+.call{
+    top: 72px;
+    position: relative;
+    background-image: url(/photos/fon/Oval-call.svg), linear-gradient(0, rgba(#E7816B, 1) 100%, 0, rgba(#E7816B, 1) 100%,);
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: cover;
+    padding: 64px 24px;
+    border-radius: 15px;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+
+        &--start{
+            max-width: 495px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-title{
+                text-align: center;
+                max-width: 268px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 40px;
+                color: #FFFFFF;
+                margin-bottom: 20px;
+            }
+            &-text{
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #FFFFFF;
+            }
+        }
+        &--end{
+            
+        &-btn{
+            width: 152px;
+            padding: 15px 15px;
+            border: none;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #333136;
+            background: #FFFFFF;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover{
+                background: #FFAD9B;
+                color: #FFFFFF;
+            }
+        }
+        }
+    }
+}
+
+}

@@ -1,3 +1,10 @@
+header{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    background: #FFFFFF;
+    z-index: 99999;
+}
 .nav{
     display: flex;
     justify-content: space-between;
